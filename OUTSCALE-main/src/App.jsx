@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { MainPage } from './components/main'
 // import Navbar from './components/Navbar'
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/> 
+      {/* <Navbar/>  */}
         <MainPage/>
     </div>
   )
